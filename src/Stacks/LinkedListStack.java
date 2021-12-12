@@ -1,5 +1,8 @@
 package Stacks;
 
+import java.util.Scanner;
+import java.util.Stack;
+
 public class LinkedListStack<T> {
 
     StackNode<T> top;
@@ -95,9 +98,6 @@ public class LinkedListStack<T> {
         System.out.println("-----");
 
     }
-
-
-
 }
 
 class StackNode<T>{
