@@ -38,5 +38,14 @@ public class Main {
 
         integerBinaryHeap.printAsTree();
 
+        Integer[] arrayA = {25, 35, 10, 15, 150, 64, 48, 105, 149, 148, 130, 22, 67, 56, 43,52,75};
+
+        BinaryHeap<Integer> newHeap = new BinaryHeap<Integer>(arrayA);
+
+        System.out.println("\n------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+
+        newHeap.printAsTree();
+
     }
 }
